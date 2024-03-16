@@ -39,19 +39,19 @@ Table *students* with columns:
 
 #### Get all students
 
-```http
+```
   localhost:8080/api/v1/students
 ```
 
 #### Get a certain student
 
-```http
+```
   localhost:8080/api/v1/students/random123@yahoo.com
 ```
 
 #### Save student
 
-```http
+```
   localhost:8080/api/v1/students/save_student
 ```
 
@@ -61,12 +61,12 @@ Table *students* with columns:
 
 #### Update student
 
-```http
+```
   localhost:8080/api/v1/students/update_student
 ```
 #### Delete student (a random email example)
 
-```http
+```
   localhost:8080/api/v1/students/delete_student/random123@yahoo.com
 ```
 
